@@ -1,0 +1,48 @@
+.work-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0; /* Add padding to top and bottom */
+  background-color: #d9c6ba;
+}
+
+.work-container h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #152935;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0.3rem;
+}
+
+.work-container p {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 1rem;
+}
+
+.work-container a {
+  text-decoration: none;
+  color: #a75d5d;
+  transition: all 0.2s ease-in-out;
+}
+.work-container a:hover {
+  color: #fff;
+    background-color: #A75D5D;
+    padding: 2px 5px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px #A75D5D; 
+    transform: translateY(-2px);
+}
+
+.work-container h2,
+.work-container p,
+.work-form input,
+.work-form textarea,
+.work-form button {
+  color: #a75d5d;
+}

@@ -1,0 +1,55 @@
+.social-contact-container {
+  background-color: #ccd5d2;
+  display: flex;
+  justify-content: space-between; /* Add space between the social icons and contact form */
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-icons a {
+  color: #152935;
+  text-decoration: none;
+  margin-bottom: 10px; /* Add margin to separate the social links vertically */
+  display: block; /* Make the links appear below each other */
+}
+.social-icons,
+.contact-form {
+  width: 45%; /* Decreasing the width of the divs */
+}
+
+.social-icons a:hover {
+  color: #a75d5d; /* Change color on hover */
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #3e8e41;
+}

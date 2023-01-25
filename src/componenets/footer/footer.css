@@ -1,0 +1,25 @@
+.footer {
+  background-color: #d9c6ba;
+  text-align: center;
+  padding: 0.6rem;
+}
+
+.footer p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer a {
+  color: #a75d5d;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer a:hover {
+  background-color: #a75d5d;
+  color: #fff;
+  padding: 2px 5px;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px #a75d5d;
+  transform: translateY(-2px);
+}
