@@ -4,19 +4,41 @@
   justify-content: space-between; /* Add space between the social icons and contact form */
   align-items: center;
   flex-wrap: wrap;
+  padding: 30px;
 }
-
+.social-title {
+  margin-left: 20px;
+  color: #152935;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
 .social-icons a {
+  margin-left: 20px;
   color: #152935;
   text-decoration: none;
   margin-bottom: 10px; /* Add margin to separate the social links vertically */
   display: block; /* Make the links appear below each other */
 }
+
 .social-icons,
 .contact-form {
   width: 45%; /* Decreasing the width of the divs */
 }
-
+.social-icon {
+  font-size: 20px;
+}
+.facebook-icon {
+  color: blue;
+}
+.instagram-icon {
+  color: #e1306c;
+}
+.twitter-icon {
+  color: #00acee;
+}
+.youtube-icon {
+  color: #ff0000;
+}
 .social-icons a:hover {
   color: #a75d5d; /* Change color on hover */
 }
@@ -24,23 +46,33 @@
 .contact-form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   padding: 20px;
 }
-
-.contact-form input,
-.contact-form textarea {
-  width: 100%;
+.contact-title {
+  margin: 0px;
+  color: #152935;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.input-field {
+  width: 80%;
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
 }
-
-.contact-form button {
-  width: 100%;
+.textarea-field {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+.submit-btn {
+  width: 80%;
   background-color: #4caf50;
   color: white;
   padding: 14px 20px;
@@ -50,6 +82,6 @@
   cursor: pointer;
 }
 
-.contact-form button:hover {
+.submit-btn:hover {
   background-color: #3e8e41;
 }

@@ -1,0 +1,20 @@
+.about-us-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ccd5d2;
+  }
+  
+  .about-us-description {
+    width: 60%;
+    text-align: justify;
+  }
+  
+  .about-us-description h3 {
+    margin-bottom: 10px;
+  }
+  
+  .about-us-image {
+    width: 200px;
+  }
+  

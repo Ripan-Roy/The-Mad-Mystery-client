@@ -1,0 +1,17 @@
+.store-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ccd5d2;
+  }
+  
+  .store-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #152935;
+  }
+  
+  .store-image {
+    width: 200px;
+  }
+  
