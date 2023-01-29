@@ -1,6 +1,6 @@
 import React from "react";
 import "./subscriptionForm.css";
-import emailImage from "../../assets/gifs/subscribe.gif";
+import emailImage from "../../assets/gifs/subscribe.png";
 
 export default function SubscriptionForm() {
   return (

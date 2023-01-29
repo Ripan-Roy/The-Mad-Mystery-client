@@ -1,4 +1,4 @@
-import gameImage from "../../assets/gifs/subscribe.gif";
+import gameImage from "../../assets/gifs/subscribe.png";
 import React from "react";
 import "./aboutGame.css";
 
